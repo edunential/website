@@ -111,7 +111,12 @@ header {
 
 .full-logo {
 	height: 20vh;
-	width: 20wh;
+}
+
+@media only screen and (max-width: 768px) {
+	.full-logo{
+		height: 10vh;
+	}
 }
 
 .header-text-box {
